@@ -419,7 +419,7 @@ How wide is the `.box` element?
 
 ---
 
-### Mental Model 3
+### Mental Model 4
 #### Layout Algorithms
 
 ---
@@ -488,6 +488,12 @@ https://flexbox.tech/
 
 #### 💻  Flexbox Exercise
 https://github.com/zl-david
+
+---
+
+#### 🐸  Flexbox Froggy
+
+https://flexboxfroggy.com/
 
 ---
 
@@ -660,6 +666,65 @@ ul {
 https://github.com/zl-david/2022-10-31-itcss-exercise
 
 ---
+## Media Queries
+
+![1*-ldpo5wcYVnuyRFbO24WPQ](https://cdn-media-1.freecodecamp.org/images/1*-ldpo5wcYVnuyRFbO24WPQ.png)
+
+---
+
+![1*7YeOvzoYgUEDJdfQy2ERXg](https://cdn-media-1.freecodecamp.org/images/1*7YeOvzoYgUEDJdfQy2ERXg.png)
+
+---
+
+```scss
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content; }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) { @content; }
+}
+
+// usage
+.my-box {
+  padding: 10px;
+  
+  @include for-desktop-up {
+    padding: 20px;
+  }
+}
+```
+
+---
+
+```css
+.my-box {
+  padding: 10px;
+}
+
+/* for-desktop-up */
+@media (min-width: 1200px) {
+  .my-box {
+    padding: 20px;
+  }
+}
+```
+
+---
+
+## Advanced CSS Animations
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
+
+---
 
 # 👓 SASS - The Goal
 
@@ -684,3 +749,6 @@ https://sass-lang.com/guide
 ### 💻  DIY
 
 https://github.com/zl-david/2022-10-31-itcss-exercise
+
+---
+![[dont-make-me-think.png]]
