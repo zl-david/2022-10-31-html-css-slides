@@ -1,0 +1,145 @@
+{
+  "main": {
+    "id": "19b1c79b4c0c65b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b24a68072a346d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "66981a274bd27613",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "presentation/Prensentation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0d0973ef357189cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "b9aca8a59e594ec4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed8c0ed25e59be72",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0fc7df5b5dba2781",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "051ab5ec8228d6df",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3ccfdcaa36b30e5c",
+    "type": "split",
+    "children": [
+      {
+        "id": "19a58b1019e19ea8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "959d990d23eea91b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "presentation/Prensentation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6a864eadf48b8f37",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "presentation/Prensentation.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "acf9ab3bcb7257c5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "46450d70861d1c37",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "presentation/Prensentation.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "66981a274bd27613",
+  "lastOpenFiles": [
+    "prep/sub/HTML.md",
+    "presentation/Prensentation.md",
+    "presentation/Notes.md"
+  ]
+}
